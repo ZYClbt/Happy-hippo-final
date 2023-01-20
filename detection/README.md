@@ -8,7 +8,7 @@
 python train.py --weights checkpoints/yolov5m.pt  --cfg models/yolov5m.yaml  --data data/mydataset.yaml --epoch 300 --batch-size 8 --img 640 --workers 2 --device 0
 ```
 
-我们去除不良数据以及进行数据增强所得的数据已经在[Roboflow](https://universe.roboflow.com/happy-hippo/happy-hippo)上开源. 如果在获取数据上存在困难, 可以联系我们进行获取, 可以提供录屏保证数据是在ddl之前产生的.
+我们去除不良数据以及进行数据增强所得的数据已经在[Roboflow](app.roboflow.com)上开源, 并可以从下表的链接中下载. 如果在获取数据上存在困难, 可以联系我们进行获取, 可以提供录屏保证数据是在ddl之前产生的.
 
 | 项目 |
 |:------:|
