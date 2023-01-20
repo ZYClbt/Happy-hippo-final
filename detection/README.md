@@ -14,6 +14,8 @@ python train.py --weights checkpoints/yolov5m.pt  --cfg models/yolov5m.yaml  --d
 
 <https://disk.pku.edu.cn:443/link/66AD7371E51949CF405E66B1500E9C63>
 
+<https://disk.pku.edu.cn:443/link/DA7AFC44F8265C4C2F719FF17EB02364>
+
 我们的video demo的北大网盘链接:
 
 <https://disk.pku.edu.cn:443/link/B59B41418D86BD2033E4C323D972D4B3>
