@@ -40,6 +40,27 @@ python tools/train.py configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/macaqu
 
 baseline的checkpoints在[MMPose的网站中](https://mmpose.readthedocs.io/en/latest/topics/animal.html)下载.
 
+除baseline以外的训练日志和checkpoints在下面的北大网盘链接中提取:
+
+<https://disk.pku.edu.cn:443/link/D4846B6B05DA38E4F83D84005F3FD763>
+
+使用如下的命令可对它们进行相应的测试:
+
+```
+python tools/test.py configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/macaque/res50_macaque_256x192.py checkpoints/res50_macaque_256x192-98f1dd3a_20210407.pth --eval mAP
+```
+
+由于技术问题, 我们无法制作完成video demo(即把detection, identification和pose estimation三者结合在一起), 我们将baseline和最佳模型在验证集上的测试效果, 以及用detection部分的验证集测试我们的最佳模型的效果(已知bounding box的信息)打包发送到下面的北大网盘链接:
+
+<https://disk.pku.edu.cn:443/link/4BBB9F82AA7CEA54218984FBCAE3F463>
+
+使用的命令形如:
+
+```
+python demo/top_down_img_demo.py configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/macaque/hrnet_w32_macaque_256x192.py checkpoints/pose2.pth --img-root fulldata/valid --json-file fulldata/test_annotation.json --out-img-root results/4/
+```
+
+
 
 
 
