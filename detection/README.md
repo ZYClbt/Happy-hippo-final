@@ -6,7 +6,9 @@
 
 ## Training and testing
 
-这部分我们使用[YOLOv5-7.0](https://github.com/ultralytics/yolov5)的代码框架.
+这部分我们使用[YOLOv5-7.0](https://github.com/ultralytics/yolov5)的代码框架, 从这里下载对应的预训练模型.
+
+在组织数据集时, 我们编写了文件夹中的`mydataset.yaml`. 对于训练和验证数据集的组织, 图片和标注文件是训练集和验证集混在一起的, 用`mydataset.yaml`中路径对应的两个`.txt`文件确定训练集和测试集, 其中每一行是一张图片的位置. 我们用文件夹中的`txtgene.py`生成这两个文件. 当时在填写相对位置时出了一些错, 我们用`convert.py`做批量的修改.
 
 使用如下格式的命令进行训练:
 
