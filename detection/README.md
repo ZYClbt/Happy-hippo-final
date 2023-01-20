@@ -1,3 +1,12 @@
 # Supply Materials for Detection for Chimps
 
 这部分我们使用[YOLOv5-7.0](https://github.com/ultralytics/yolov5)的代码框架.
+
+使用如下格式的命令进行训练:
+
+```
+python train.py --weights checkpoints/yolov5m.pt  --cfg models/yolov5m.yaml  --data data/mydataset.yaml --epoch 300 --batch-size 8 --img 640 --workers 2 --device 0
+```
+
+我们去除不良数据以及进行数据增强所得的数据在<https://app.roboflow.com/>上开源, 搜索Happy-hippo即可.
+
