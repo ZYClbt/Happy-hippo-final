@@ -10,6 +10,8 @@ python train.py --weights checkpoints/yolov5m.pt  --cfg models/yolov5m.yaml  --d
 
 我们去除不良数据以及进行数据增强所得的数据已经在[Roboflow](https://universe.roboflow.com/happy-hippo/happy-hippo)上开源. 如果在获取数据上存在困难, 可以联系我们进行获取, 可以提供录屏保证数据是在ddl之前产生的.
 
+| 项目 | [去除不良数据](https://universe.roboflow.com/happy-hippo/happy-hippo/dataset/3) | [Hue+Saturation](https://universe.roboflow.com/happy-hippo/happy-hippo/dataset/9) | [Contrast+Brightness](https://universe.roboflow.com/happy-hippo/happy-hippo/dataset/5) | [Hue+Brightness](https://universe.roboflow.com/happy-hippo/happy-hippo/dataset/8)
+
 我们的训练日志和checkpoints的北大网盘链接:
 
 <https://disk.pku.edu.cn:443/link/66AD7371E51949CF405E66B1500E9C63>
