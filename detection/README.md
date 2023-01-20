@@ -1,5 +1,11 @@
 # Supply Materials for Detection for Chimps
 
+## Cleaning and organizing the data
+
+我们使用该文件夹中`del.py`的脚本删除空白标注对应的图片文件, 然后在Windows系统中, 在标注的文件夹中将文件按大小升序排列, 删除所有排在最前面的显示大小为0的标注文件, 即完成了数据的清理.
+
+## Training and testing
+
 这部分我们使用[YOLOv5-7.0](https://github.com/ultralytics/yolov5)的代码框架.
 
 使用如下格式的命令进行训练:
