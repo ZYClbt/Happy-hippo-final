@@ -1,0 +1,7 @@
+train: ../datasets/mydataset/dataset_path/train.txt
+val: ../datasets/mydataset/dataset_path/val.txt
+
+
+nc: 1
+
+names: ["chimpanzee",]
