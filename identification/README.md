@@ -1,4 +1,4 @@
-# Supply Materials for identification for Chimps
+# Supply Materials for Identification for Chimps
 
 ## Baseline
 
