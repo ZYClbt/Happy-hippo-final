@@ -17,7 +17,7 @@ python train.py --weights checkpoints/yolov5m.pt  --cfg models/yolov5m.yaml  --d
 | [Contrast+Brightness](https://universe.roboflow.com/happy-hippo/happy-hippo/dataset/5) |
 | [Hue+Brightness](https://universe.roboflow.com/happy-hippo/happy-hippo/dataset/8) |
 
-我们的训练日志和checkpoints的北大网盘链接:
+我们的训练日志和checkpoints的北大网盘链接(下面两个链接分别是两个作者完成的训练部分):
 
 <https://disk.pku.edu.cn:443/link/66AD7371E51949CF405E66B1500E9C63>
 
